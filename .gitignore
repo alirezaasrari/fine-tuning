@@ -1,0 +1,100 @@
+
+# =================================
+# Python
+# =================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# =================================
+# Virtual environments
+# =================================
+venv/
+vevn/
+env/
+.venv/
+ENV/
+
+# =================================
+# Jupyter
+# =================================
+.ipynb_checkpoints/
+
+# =================================
+# Model checkpoints and outputs
+# =================================
+my_finetuned_model/
+output/
+outputs/
+checkpoints/
+checkpoint-*/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+
+# =================================
+# Hugging Face cache
+# =================================
+.cache/
+huggingface_cache/
+models/
+hub/
+
+# =================================
+# Training logs
+# =================================
+runs/
+logs/
+wandb/
+tensorboard/
+*.log
+
+# =================================
+# Dataset files (large/private data)
+# =================================
+dataset/private/
+dataset/raw/
+*.pdf
+*.docx
+*.xlsx
+*.csv
+
+# =================================
+# Environment variables and secrets
+# =================================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.json
+credentials.json
+
+# =================================
+# IDE and editor
+# =================================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =================================
+# Operating system
+# =================================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# =================================
+# Temporary files
+# =================================
+*.tmp
+*.temp
+*.bak
+*.cache
+```
+
